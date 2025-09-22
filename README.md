@@ -1,4 +1,4 @@
-# 🖥️ MArch + Hyprland
+# 🖥️ Arch + Hyprland
 
 - **Окружение**: Hyprland (WM), Waybar (бар), Wofi (лаунчер)
 - **Терминал**: Kitty
