@@ -1,0 +1,10 @@
+{
+  "position": "top-right",
+  "max-visible": 5,
+  "hide-on-timeout": true,
+  "timeout": 5000,
+  "show-counter": true,
+  "hide-avatar": false,
+  "compact": false,
+  "layer": "top"
+}

@@ -1,0 +1,3 @@
+xray 25.7.26-1
+yay-bin 12.5.0-1
+yay-bin-debug 12.5.0-1

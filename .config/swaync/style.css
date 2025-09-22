@@ -1,0 +1,115 @@
+/* Основной фон и стиль уведомлений */
+window {
+    font-family: "Inter", "Fira Sans", sans-serif;
+    font-size: 13px;
+    color: #e0e0e0;
+    background-color: transparent;
+}
+
+/* Контейнер уведомлений */
+#notifications {
+    margin: 10px;
+    padding: 5px 0;
+}
+
+/* Одно уведомление */
+.notification {
+    margin: 0 10px 10px 10px;
+    padding: 12px 16px;
+    border-radius: 10px;
+    background-color: rgba(30, 30, 46, 0.92); /* Глубокий тёмный фон (Nord-like) */
+    border: 1px solid rgba(60, 60, 80, 0.3);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    transition: all 0.2s ease;
+}
+
+.notification:hover {
+    background-color: rgba(40, 40, 60, 0.95);
+    transform: scale(1.02);
+}
+
+/* Заголовок уведомления (обычно жирный) */
+.notification-title {
+    font-weight: 600;
+    color: #d8dee9;
+}
+
+/* Текст уведомления */
+.notification-body {
+    color: #eceff4;
+    margin-top: 4px;
+}
+
+/* Иконка */
+.notification-icon {
+    padding: 4px;
+    border-radius: 6px;
+    background-color: rgba(100, 150, 200, 0.15);
+    margin-right: 10px;
+}
+
+/* Аватар (если есть) */
+.notification-avatar {
+    border-radius: 8px;
+}
+
+/* Кнопки в уведомлении */
+.button {
+    padding: 6px 10px;
+    margin: 0 4px;
+    border: none;
+    border-radius: 6px;
+    background-color: rgba(100, 180, 255, 0.8);
+    color: #fff;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.button:hover {
+    background-color: rgba(100, 180, 255, 1);
+}
+
+/* Прогресс-бар */
+.progressbar {
+    margin-top: 8px;
+    min-height: 4px;
+    border-radius: 2px;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.progressbar progress {
+    border-radius: 2px;
+    background-color: #81a1c1;
+    border: none;
+}
+
+/* Центр уведомлений (когда открыт) */
+#summary {
+    margin: 10px;
+    padding: 16px;
+    border-radius: 12px;
+    background-color: rgba(25, 25, 38, 0.94);
+    border: 1px solid rgba(60, 60, 80, 0.4);
+    max-width: 400px;
+}
+
+#summary-title {
+    font-size: 16px;
+    font-weight: 600;
+    color: #d8dee9;
+    margin-bottom: 12px;
+}
+
+/* Кнопка "Очистить всё" */
+#clear-button {
+    padding: 6px 12px;
+    background-color: rgba(230, 100, 100, 0.8);
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 12px;
+}
+
+#clear-button:hover {
+    background-color: rgba(230, 80, 80, 1);
+}
